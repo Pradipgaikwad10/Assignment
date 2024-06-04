@@ -16,5 +16,5 @@ jobs:
           password: ${{ secrets.DOCKERHUB_PASSWORD }}
       - name: Build and push Docker image
         run: |
-          docker build -t pradip100/hisb-guestbook-go .
-          docker push pradip100/hisb-guestbook-go:latest
+          docker build -t pradip100/Assignment .
+          docker push pradip100/Assignment:latest
