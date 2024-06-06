@@ -26,4 +26,4 @@ jobs:
       uses: docker/build-push-action@v2
       with:
         push: true
-        tags:pradip100/assignment:latest
+        tags: pradip100/assignment:latest
