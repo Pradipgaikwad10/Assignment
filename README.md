@@ -3,7 +3,7 @@
 ## Assignment 1 (Continuous Integration Pipeline)
 ### Problem Statment:
 #### Phase 1:
-- Create a new GitHub public repo from [repo](https://github.com/kubernetes/examples/tree/master/guestbook-go)
+- Create a new GitHub public repo from [repo](https://github.com/Pradipgaikwad10/assignment)
 - Create a container image using the Github Action workflow for the above project.
 - Push that image to the docker hub.
 
@@ -19,9 +19,9 @@
 
 ## Solution
 # Phase I: (Provided the solution with Repository links)
-* Created a new [GitHub public repository](https://github.com/gaurangkudale/guestbook-go.git) from provided repository 
-* Created a container image using GitHub [Action workflow](https://github.com/gaurangkudale/guestbook-go/actions) for the above project.
-* Pushed that image to [docker hub](https://hub.docker.com/r/gaurangkudale/guestbook-go/tags)
+* Created a new [GitHub public repository](https://github.com/Pradipgaikwad10/assignment) from provided repository 
+* Created a container image using GitHub [Action workflow](https://github.com/Pradipgaikwad10/assignment/actions) for the above project.
+* Pushed that image to [docker hub](https://hub.docker.com/r/pradipgaikwad10/assignment/tags)
 
 ### Phase II:
 - Deployed the container image built in the above step(Phase I) on the local cluster.
