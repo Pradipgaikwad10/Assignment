@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: kicbase-app
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: kicbase-app
+  template:
+    metadata:
+      labels:
+        app: kicbase-app
+    spec:
+      containers:
+      - name: kicbase-container
+        image: pradipgaikwad10/kicbase:v0.0.44
+        ports:
+        - containerPort: 80
