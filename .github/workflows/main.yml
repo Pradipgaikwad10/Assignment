@@ -17,4 +17,4 @@ jobs:
       - name: Build and push Docker image
         run: |
           docker build -t pradipgaikwad10/assignment .
-          docker push pradip100/assignment:latest
+          docker push pradipgaikwad10/assignment:latest
