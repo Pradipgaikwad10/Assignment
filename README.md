@@ -27,7 +27,7 @@
 - Deployed the container image built in the above step(Phase I) on the local cluster.
 
 ### Phase III:
-- Prevented merging anything in the main branch without review. To test this scenario I created a pull request to ensure that the auto-merging is disabled and see the [PR HERE](https://github.com/gaurangkudale/guestbook-go/pulls?q=is%3Apr+is%3Aclosed)
+- Prevented merging anything in the main branch without review. To test this scenario I created a pull request to ensure that the auto-merging is disabled and see the [PR HERE](https://github.com/Pradipgaikwad10/assignment/pulls)
 - Build container image only when one of the below conditions is true:
     - When [PR gets merged in the main/master](https://github.com/gaurangkudale/guestbook-go/actions/runs/5849910327) branch from any other branch.
     - When the [commit message contains the `BUILD_CONTAINER_IMAGE` string](https://github.com/gaurangkudale/guestbook-go/pull/2)
