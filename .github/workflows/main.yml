@@ -16,5 +16,5 @@ jobs:
           password: ${{ secrets.DOCKERHUB_PASSWORD }}
       - name: Build and push Docker image
         run: |
-          docker build -t pradipgaikwad10/Assignment .
-          docker push pradip100/Assignment:latest
+          docker build -t pradipgaikwad10/assignment .
+          docker push pradip100/assignment:latest
